@@ -138,9 +138,7 @@ class DetectionAndTracking:
     def process_video(self):
         """
         Reads frames from a video, runs object detection and tracking, and writes output.
-        :param net: Preloaded deep learning model
-        :param args: Command-line arguments
-        param COLORS: List of colors for each class
+        
         """ 
         cap = cv2.VideoCapture(self.video_name)
         #cheking if video successufully opened
